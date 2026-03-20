@@ -1,5 +1,5 @@
 # Exploratory Data Analysis with SQL : Job Market Analysis
-![Project 1 Iverview](../Images/1_1_Project1_EDA.png)  
+![Project 1 Overview](../Images/1_1_Project1_EDA.png)  
   
   -  This SQL project explores a dataset of job postings collected from multiple hiring platforms, including Indeed and LinkedIn, focusing primarily on data science roles while also covering related positions in analytics and data engineering. The goal is to understand market trends, identify the most in-demand skills, analyze salary patterns, and discover optimal skill combinations for data science professionals.To turn businnes questions into data driven insights
 
@@ -16,15 +16,15 @@
   ---  
   If you only have a minute, review these:
 
-  1.[Top Demanded Skills Query](/1_EDA/01_top_demanded_skills.sql) - Demand analysis with multi-table joins  
-  2. [Top Paying Skills](/1_EDA/02_top_paying_skills.sql) - Salary analysis with aggregation  
-  3. [Optimal Skills](/1_EDA/03_optimal_skills.sql) - Combined demand/salary optimization query  
-  4. [Skills in Highest Paying Jobs](/1_EDA/04_skill_in_highest_paying_jobs.sql) – Uses joins and aggregations to find highest paying jobs   
-  5. [Common Skill Combinations](/1_EDA/05_most_common_skills_combination.sql) – Uses self-joins and grouping to identify the most frequent skill pair combinations appearing together in job postings.  
+  1. [Top Demanded Skills Query.sql](/1_EDA/01_top_demanded_skills.sql) - Demand analysis with multi-table joins  
+  2. [Top Paying Skills.sql](/1_EDA/02_top_paying_skills.sql) - Salary analysis with aggregation  
+  3. [Optimal Skills.sql](/1_EDA/03_optimal_skills.sql) - Combined demand/salary optimization query  
+  4. [Skills in Highest Paying Jobs.sql](/1_EDA/04_skill_in_highest_paying_jobs.sql) – Uses joins and aggregations to find highest paying jobs   
+  5. [Common Skill Combinations.sql](/1_EDA/05_most_common_skills_combination.sql) – Uses self-joins and grouping to identify the most frequent skill pair combinations appearing together in job postings.  
 
   
   
-  ## Problem And Context
+  ## 🧩 Problem And Context
   The data science job market is rapidly evolving, with employers demanding a diverse and changing set of technical skills. Aspiring data proffessionals need to know:
   - Whats skills are **most in demand** for data scientists?
   - **Highest paying skill** connected to the highest salaries?
@@ -51,24 +51,25 @@ Querying across the tables, enables extraction of insights about skills demand, 
 
 ## Analysis Overview  
  1.[Top Demanded Skills](/1_EDA/01_top_demanded_skills.sql) - identifies top most in demand skilss for data scientists  
- 2.[Top Paying Skills](/1_EDA/02_top_paying_skills.sql) - Analyze top 25 paying skillls with salary and demand metrics
+ 2.[Top Paying Skills](/1_EDA/02_top_paying_skills.sql) - Analyze top 25 paying skillls with salary and demand metrics  
  3.[Optimal Skills](/1_EDA/03_optimal_skills.sql) - Calculates optimals scores using natural log of demand combined with median salary to identify the most valuable skills to learn.  
  4.[Skills in Highest Paying Jobs](/1_EDA/04_skill_in_highest_paying_jobs.sql) - Identifies the skills in the highest paying jobs  
- 5.[Common Skills Combination](/1_EDA/05_most_common_skills_combination.sql) - I dentifies the most sort after skills by employers in the job market  
+ 5.[Common Skills Combination](/1_EDA/05_most_common_skills_combination.sql) - Identifies the most sort after skills by employers in the job market  
 
 
-### Key Insights
+### Key Insights  
 
-- **SQL and Python dominate the market** – These skills appear most frequently across data science job postings, making them foundational for most roles.
+- **SQL and Python are the most consistently demanded skills**, appearing across a majority of data science job postings.
 
-- **Higher salaries are associated with specialized tools** – Skills such as cloud technologies, machine learning frameworks, and advanced analytics tools tend to appear more often in higher-paying roles.
+- **Higher-paying roles tend to require specialized or advanced skills**, including cloud platforms and machine learning-related tools.
 
-- **Skill combinations matter** – Employers commonly look for combinations of technical skills rather than individual tools, highlighting the importance of a well-rounded technical stack.
+- **There is a strong relationship between skill combinations and employability**, with employers frequently requiring multiple complementary skills rather than a single technology.
 
-- **Certain skills balance demand and salary** – Some technologies offer both strong market demand and competitive compensation, making them particularly valuable for career development.
+- **Some skills offer both high demand and strong salary potential**, making them optimal targets for career development.
 
-- **Data science roles require multidisciplinary expertise** – Job postings often combine programming, data analysis, and statistical skills, reflecting the hybrid nature of modern data roles.  
+- **Top-paying roles typically include a broader and more advanced skill set**, indicating that depth and versatility increase earning potential.
 
+> These insights were derived using SQL-based aggregation, joins, and analytical queries on real-world job posting data.
 
 ## SQL Skills Demostrated  
 
@@ -82,7 +83,7 @@ Querying across the tables, enables extraction of insights about skills demand, 
 ### Data Analysis Techniques  
 - **Grouping:** `GROUP BY` for categorical analysis by skill  
 - **Conditional Logic:** `CASE WHEN` statements for derived metrics  
-- *Mathematical Functions:** `LN()` for natural logarithm transformation to normalize demand metrics  
+- **Mathematical Functions:** `LN()` for natural logarithm transformation to normalize demand metrics  
 - **Calculated Metrics:** Derived optimal score combining log-transformed demand with median salary  
 - **Having Clauses:** Filtering aggregated results (skills with >= 100 postings)  
 - **Null Hanlding:** Proper filtering of incomplete records (`salary_year_avg IS NOT NULL`)
