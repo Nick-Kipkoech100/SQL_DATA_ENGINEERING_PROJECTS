@@ -1,7 +1,8 @@
 # Exploratory Data Analysis with SQL : Job Market Analysis
 ![Project 1 Overview](../Images/1_1_Project1_EDA.png)  
   
-  -  This SQL project explores a dataset of job postings collected from multiple hiring platforms, including Indeed and LinkedIn, focusing primarily on data science roles while also covering related positions in analytics and data engineering. The goal is to understand market trends, identify the most in-demand skills, analyze salary patterns, and discover optimal skill combinations for data science professionals.To turn businnes questions into data driven insights
+  -  This SQL project explores a dataset of job postings collected from multiple hiring platforms, including Indeed and LinkedIn, focusing primarily on data science roles while also covering related positions in analytics and data engineering. The goal is to understand market trends, identify the most in-demand skills, analyze salary patterns, and discover optimal skill combinations for data science professionals.To turn businnes questions into data driven insights.  
+  This project analyzes job posting data to identify in-demand skills, salary trends, and optimal skill combinations for data science roles. The analysis was extended to include additional queries exploring skill combinations and high-value skill sets.
 
 ---
 
