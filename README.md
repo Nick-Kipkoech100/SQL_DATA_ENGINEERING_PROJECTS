@@ -10,7 +10,9 @@ A collection of SQL-based data analysis and data engineering projects focused on
 
 Analyzes job posting data to identify in-demand skills, salary trends, and optimal skill combinations for data science roles.
 
-🔗 [View Project](./1_EDA)
+🔗 [EDA](./1_EDA) - Explaratory Data Analysis  
+
+![Project 1 overview](/Images/1_1_Project1_EDA.png)
 
 ---
 
