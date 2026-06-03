@@ -2,7 +2,7 @@
 
 An end-to-end SQL data engineering and analytics engineering project that transforms raw operational CSV datasets into a structured analytical ecosystem using dimensional modeling, ETL pipelines, and specialized analytical data marts.  
   
-![Pipeline Architecture](../images/1_2_Project2_Data_Pipeline.png)
+![Pipeline Architecture](../Images/1_2_Project2_Data_Pipeline.png)
 
 This project simulates a real-world modern data workflow where raw source data is ingested from cloud storage, transformed into a centralized star schema warehouse, and optimized into analytical marts designed for business intelligence, reporting, and scalable decision-making.
 
@@ -168,7 +168,7 @@ One row per job posting in the fact table.
 # 📊 Flat Mart
 
 A denormalized analytical mart designed for simplified ad-hoc querying and rapid business analysis.
-![Flat Mart](../images/1_2_Flat_Mart.png) 
+![Flat Mart](../Images/1_2_Flat_Mart.png) 
 
 
 ### Purpose
@@ -188,7 +188,7 @@ One row per job posting with all dimensions joined.
 # 📈 Skills Mart
 
 A time-series analytical mart focused on measuring skill demand trends across job postings.
-![Skills Mart](../images/1_2_Skills_Mart.png) 
+![Skills Mart](../Images/1_2_Skills_Mart.png) 
 
 ### Purpose
 
