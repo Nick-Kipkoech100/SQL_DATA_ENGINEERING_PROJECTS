@@ -25,7 +25,7 @@ Analyzes job posting data to identify in-demand skills, salary trends, and optim
 
 ### 2. DW & MARTS BUILD 
 # 🏗️ Data Warehouse & Analytics Mart Engineering Pipeline 
-[DW & MARTS BUILD](../SQL_DATA_ENGINEERING_PROJECTS/2_DW_Mart_Build/README.md)
+[DW & MARTS BUILD](/2_DW_Mart_Build/README.md)
 
 An end-to-end SQL data engineering project that transforms raw operational CSV datasets 
 into a structured analytical ecosystem using dimensional modeling, ETL pipelines, and 
