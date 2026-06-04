@@ -29,7 +29,8 @@ Analyzes job posting data to identify in-demand skills, salary trends, and optim
 
 An end-to-end SQL data engineering project that transforms raw operational CSV datasets 
 into a structured analytical ecosystem using dimensional modeling, ETL pipelines, and 
-specialized analytical data marts.
+specialized analytical data marts. 
+[DW ARCHITECTURE & PIPELINES](/Images/1_2_Project2_Data_Pipeline.png)
 
 ## What This Project Does
 
