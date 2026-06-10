@@ -160,8 +160,8 @@ One row per job posting in the fact table.
 
 ### SQL Files
 
-* `01_create_tables_dw.sql`
-* `02_load_schema_dw.sql`
+* [`01_create_tables_dw.sql`](/2_DW_Mart_Build/01_create_tables_dw.sql)
+* [`02_load_schema_dw.sql`](/2_DW_Mart_Build/02_load_schema_dw.sql)
 
 ---
 
@@ -181,7 +181,7 @@ One row per job posting with all dimensions joined.
 
 ### SQL File
 
-* `03_create_flat_mart.sql`
+*[ `03_create_flat_mart.sql`](/2_DW_Mart_Build/03_create_flat_mart.sql)
 
 ---
 
@@ -207,7 +207,7 @@ Supports longitudinal trend analysis and demand forecasting for technical skills
 
 ### SQL File
 
-* `04_create_skills_mart.sql`
+* [`04_create_skills_mart.sql`](/2_DW_Mart_Build/04_create_skills_mart.sql)
 
 ---
 
@@ -233,8 +233,8 @@ One row per job posting with assigned priority classifications.
 
 ### SQL Files
 
-* `05_create_priority_mart.sql`
-* `06_update_priority_mart.sql`
+* [`05_create_priority_mart.sql`](/2_DW_Mart_Build/05_create_priority_mart.sql)
+* [`06_update_priority_mart.sql`](/2_DW_Mart_Build/06_update_priority_mart.sql)
 
 ---
 
@@ -261,7 +261,7 @@ Supports organizational hiring intelligence and trend-based workforce analysis.
 
 ### SQL File
 
-* `07_create_company_mart.sql`
+* [`07_create_company_mart.sql`](/2_DW_Mart_Build/07_company_mart.sql)
 
 ---
 
@@ -323,11 +323,3 @@ The project reflects principles commonly used in modern analytics engineering an
 
 ---
 
-# 📌 Project Status
-
-🚧 In Progress
-
-Currently completing:
-
-* `07_create_company_mart.sql`
-* additional analytical optimizations and refinements
